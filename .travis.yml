@@ -19,6 +19,5 @@ before_script:
 
 
 # command to run tests
-script: 
-	#source ENV1/bin/activate	
-	python ENV1/mysite/manage.py test 
+script:
+	-python ENV1/mysite/manage.py test 
