@@ -6,4 +6,4 @@ python:
 # command to install dependenci
 install:
 # command to run tests
-script: python ~/App/ENV1/mysite/manage.py test empresas
+script: python ENV1/mysite/manage.py test empresas
