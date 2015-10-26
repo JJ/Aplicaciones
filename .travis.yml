@@ -3,7 +3,7 @@ python:
   - "2.6"
   - "2.7"
   - "pypy"
-# command to install dependencies
+# command to install dependenci
 install:
 # command to run tests
 script: python ~/App/ENV1/mysite/manage.py test empresas
