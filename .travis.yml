@@ -7,4 +7,4 @@ python:
 install:
 source ENV1/bin/activate
 # command to run tests
-script: python ENV1/mysite/manage.py test empresas
+script: python App/ENV1/mysite/manage.py test empresas
