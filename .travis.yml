@@ -5,6 +5,8 @@ python:
 #export PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages:$PYTHONPATH
 
 install:
-source ENV1/bin/activate
+#source ENV1/bin/activate
 # command to run tests
-script: python ENV1/mysite/manage.py test empresas
+script: 
+	source ENV1/bin/activate	
+	python ENV1/mysite/manage.py test empresas
