@@ -14,9 +14,16 @@ class Empresas (models.Model):
 	correo = models.CharField (max_length=200)
 	#fecha_visita = models.DateField ('Fecha visita') #'%Y-%m-%d %H:%M:%S'
 	
-
+	
 	def __unicode__(self):
 		return self.nombre
+		
+	def getEmpresa(self):
+		return self
+		
+	def deleteEmpresa(self):
+		self.delete()
+	
 
 	#def fue_visitado_recientemente(self):
 		#return self.fecha_visita >= timezone.now () - datetime.timedelta (days=1)

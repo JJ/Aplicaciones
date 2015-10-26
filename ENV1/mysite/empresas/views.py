@@ -61,6 +61,11 @@ def puntuaciones (request, empresa_id):
 	#puntuacion=Valoracion.objects.get(pk=empresa_id)
 	return render(request, 'empresas/puntuaciones.html', context3)
 	
+def get_Empresa(request, empresa_id):
+	emp=Empresas.objects.filter(pk=empresa_id)
+	return emp
+	#return render(request, 'empres', context3)
+	
 	
 
 
@@ -101,7 +106,7 @@ def add_empresa(request):
     # Render the form with error messages (if any).
 	return render(request, 'empresas/add_empresa.html', {'form': form})
 
-	
+
 
 
 
