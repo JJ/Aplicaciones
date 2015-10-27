@@ -1,14 +1,9 @@
 empresas.models	empresas.models-module.html
-empresas.views	empresas.views-module.html
-empresas.views.index	empresas.views-module.html#index
-empresas.views.add_empresa	empresas.views-module.html#add_empresa
-empresas.views.__package__	empresas.views-module.html#__package__
-empresas.views.valoraciones	empresas.views-module.html#valoraciones
-empresas.views.puntuaciones	empresas.views-module.html#puntuaciones
-empresas.views.datos	empresas.views-module.html#datos
 empresas.models.Empresas	empresas.models.Empresas-class.html
 empresas.models.Empresas.correo	empresas.models.Empresas-class.html#correo
 empresas.models.Empresas.nombre	empresas.models.Empresas-class.html#nombre
+empresas.models.Empresas.getEmpresa	empresas.models.Empresas-class.html#getEmpresa
+empresas.models.Empresas.deleteEmpresa	empresas.models.Empresas-class.html#deleteEmpresa
 empresas.models.Empresas.__unicode__	empresas.models.Empresas-class.html#__unicode__
 empresas.models.Valoracion	empresas.models.Valoracion-class.html
 empresas.models.Valoracion.puntuacion	empresas.models.Valoracion-class.html#puntuacion

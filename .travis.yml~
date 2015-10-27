@@ -13,7 +13,7 @@ install:
 
 before_script:
 	#export PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages:$PYTHONPATH
-  	#- export DJANGO_SETTINGS_MODULE= mysite.settings.py
+  	- export DJANGO_SETTINGS_MODULE= mysite.settings.py
 
 
 
