@@ -6,7 +6,7 @@ python:
 
 install:
 	#source ENV1/bin/activate
-	-sudo apt-get install python-dev
+	- sudo apt-get install python-dev
 	- pip install --upgrade pip 
 	- pip install Django 
 
@@ -20,5 +20,5 @@ before_script:
 
 # command to run tests
 script:
-	-cd ENV1/mysite 
+	- cd ENV1/mysite 
 	- python manage.py test 
